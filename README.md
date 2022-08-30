@@ -2,6 +2,8 @@
 
 Test your current browser's MediaRecorder API Capabilities
 
+https://media-recorder-tester.vercel.app/
+
 ## CLI Commands
 
 ``` bash
