@@ -5,7 +5,8 @@ const Home = () => {
     const mediaRecorderSupported = isWebApi && !!window.MediaRecorder;
     const mediaRecorderIsTypeSupported = isWebApi && !!MediaRecorder.isTypeSupported;
     const isMp3Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp3");
-    const isMp4Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp4");
+    const isMp4AacSupported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp4;codecs=aac");
+    const isMp4Ac3Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp4;codecs=ac3");
     const isOpusWebmSupported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/webm;codecs=opus");
     const isOpusOggSupported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/ogg;codecs=opus");
 
@@ -19,8 +20,10 @@ const Home = () => {
                 <div>{mediaRecorderIsTypeSupported ? "true" : "false"}</div>
                 <div>mp3 support</div>
                 <div>{isMp3Supported ? "true" : "false"}</div>
-                <div>mp4 support</div>
-                <div>{isMp4Supported ? "true" : "false"}</div>
+                <div>mp4/aac support</div>
+                <div>{isMp4AacSupported ? "true" : "false"}</div>
+                <div>mp4/ac3 support</div>
+                <div>{isMp4AcsSupported ? "true" : "false"}</div>
                 <div>opus/webm support</div>
                 <div>{isOpusWebmSupported ? "true" : "false"}</div>
                 <div>opus/ogg support</div>
