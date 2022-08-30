@@ -1,8 +1,9 @@
 import style from "./style.css";
 
 const Home = () => {
-    const mediaRecorderSupported = !!MediaRecorder;
-    const mediaRecorderIsTypeSupported = !!MediaRecorder.isTypeSupported;
+    const isWebApi = typeof window !== "undefined";
+    const mediaRecorderSupported = isWebApi && !!window.MediaRecorder;
+    const mediaRecorderIsTypeSupported = isWebApi && !!MediaRecorder.isTypeSupported;
     const isMp3Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp3");
     const isMp4Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp4");
     const isOpusWebmSupported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/webm;codecs=opus");
