@@ -1,0 +1,22 @@
+{
+  "bundle.css": "bundle.4922e.css",
+  "bundle.js": "bundle.a1d3a.esm.js",
+  "bundle.js.map": "bundle.a1d3a.esm.js.map",
+  "polyfills.js": "polyfills.830ba.esm.js",
+  "polyfills.js.map": "polyfills.830ba.esm.js.map",
+  "route-home.css": "route-home.chunk.c7d8d.css",
+  "route-home.js": "route-home.chunk.e6698.esm.js",
+  "route-home.js.map": "route-home.chunk.e6698.esm.js.map",
+  "assets/favicon.ico": "assets/favicon.ico",
+  "assets/icons/android-chrome-192x192.png": "assets/icons/android-chrome-192x192.png",
+  "assets/icons/android-chrome-512x512.png": "assets/icons/android-chrome-512x512.png",
+  "assets/icons/apple-touch-icon.png": "assets/icons/apple-touch-icon.png",
+  "assets/icons/favicon-16x16.png": "assets/icons/favicon-16x16.png",
+  "assets/icons/favicon-32x32.png": "assets/icons/favicon-32x32.png",
+  "assets/icons/mstile-150x150.png": "assets/icons/mstile-150x150.png",
+  "manifest.json": "manifest.json",
+  "sw-esm.js": "sw-esm.js",
+  "sw-esm.js.map": "sw-esm.js.map",
+  "sw.js": "sw.js",
+  "sw.js.map": "sw.js.map"
+}
