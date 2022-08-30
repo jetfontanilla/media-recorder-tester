@@ -1,7 +1,7 @@
 import style from "./style.css";
 
 const Home = () => {
-    const mediaRecorderSupported = !!window.MediaRecorder;
+    const mediaRecorderSupported = !!MediaRecorder;
     const mediaRecorderIsTypeSupported = !!MediaRecorder.isTypeSupported;
     const isMp3Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp3");
     const isMp4Supported = mediaRecorderIsTypeSupported && MediaRecorder.isTypeSupported("audio/mp4");
