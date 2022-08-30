@@ -23,7 +23,7 @@ const Home = () => {
                 <div>mp4/aac support</div>
                 <div>{isMp4AacSupported ? "true" : "false"}</div>
                 <div>mp4/ac3 support</div>
-                <div>{isMp4AcsSupported ? "true" : "false"}</div>
+                <div>{isMp4Ac3Supported ? "true" : "false"}</div>
                 <div>opus/webm support</div>
                 <div>{isOpusWebmSupported ? "true" : "false"}</div>
                 <div>opus/ogg support</div>
