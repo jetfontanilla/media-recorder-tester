@@ -21,9 +21,9 @@ const Home = () => {
                 <div>{mediaRecorderIsTypeSupported ? "true" : "false"}</div>
                 <div>mp3 support</div>
                 <div>{isMp3Supported ? "true" : "false"}</div>
-                <div>mp4/aac support</div>
+                <div>mp4 support</div>
                 <div>{isMp4Supported ? "true" : "false"}</div>
-                <div>generic mp4 support</div>
+                <div>mp4/aac support</div>
                 <div>{isMp4AacSupported ? "true" : "false"}</div>
                 <div>mp4/ac3 support</div>
                 <div>{isMp4Ac3Supported ? "true" : "false"}</div>
